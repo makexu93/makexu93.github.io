@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #828282;
+  --color-primary: #32cf93;
   --color-secondary: #161718;
 }
 
@@ -57,7 +57,7 @@ h6 {
 }
 
 .gallery-links .bi  {
-  font-size:60px;
+  font-size:50px;
 }
 
 /*--------------------------------------------------------------
