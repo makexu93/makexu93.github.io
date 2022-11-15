@@ -232,6 +232,7 @@ orderColumnsRandomly();
 
 let nextPages = [
   'page2',
+  'index'
 
 ];
 
