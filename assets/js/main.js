@@ -224,3 +224,21 @@ function orderColumnsRandomly() {
 
 // execute everytime when page refreshes
 orderColumnsRandomly();
+
+
+
+
+// infinite scroll
+
+let nextPages = [
+  'page2',
+
+];
+
+$('#xcontainer').infiniteScroll({
+  path: function() {
+    return nextPages[ this.loadCount ] + '.html';
+  },
+  append: '.col-xl-6',
+  status: '.page-load-status',
+});
