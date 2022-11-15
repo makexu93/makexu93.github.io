@@ -240,5 +240,5 @@ $('#xcontainer').infiniteScroll({
     return nextPages[ this.loadCount ] + '.html';
   },
   append: '.col-xl-6',
-  status: '.page-load-status',
+  status: '.scroller-status',
 });
