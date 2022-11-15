@@ -231,8 +231,7 @@ orderColumnsRandomly();
 // infinite scroll
 
 let nextPages = [
-  'page2',
-  'index'
+  'page2'
 
 ];
 
@@ -242,4 +241,5 @@ $('#xcontainer').infiniteScroll({
   },
   append: '.col-xl-6',
   status: '.scroller-status',
+
 });
