@@ -241,5 +241,16 @@ $('#xcontainer').infiniteScroll({
   },
   append: '.col-xl-6',
   status: '.scroller-status',
+  history: false,
+  checkLastPage: '.pagination__next',
+  debug: true,
+  fetchOptions: {
+  cache: 'no-cache',
+},
+
+
 
 });
+
+const observer = lozad();
+observer.observe();
