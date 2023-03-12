@@ -229,7 +229,7 @@ orderColumnsRandomly();
 
 
 // infinite scroll
-
+/*
 let nextPages = [
   'page2'
 
@@ -254,3 +254,4 @@ $('#xcontainer').infiniteScroll({
 
 const observer = lozad();
 observer.observe();
+*/
